@@ -1,2 +1,25 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="curtain">
+  <div class="curtain__wrapper">
+    <input type="checkbox" id="checkbox" onclick="disable(this);">
+
+    <div class="curtain__panel curtain__panel--left">
+      <h1>Hi!&nbsp;&nbsp;<h1>
+      <h1>I'm Farrah!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+    </div> <!-- curtain__panel -->
+
+    <div class="curtain__content">
+      <h2>Be Creative in my Reality.</h2>
+      <p>Born in Hong Kong, Live in Tokyo.</p>
+    </div>
+
+    <div class="curtain__panel curtain__panel--right">
+      <h3>&nbsp;&nbsp;a fullstack developer/ QA / AI Trainer</h3>
+    </div> <!-- curtain__panel -->
+
+  </div> <!-- curtain__wrapper -->
+</div> <!-- curtain -->
+<script>
+  function disable(el){
+      el.setAttribute('disabled',true);
+  }
+</script>
