@@ -1,7 +1,9 @@
 .topnav {
-  overflow: hidden;
+  position: sticky;
+  top: 0px;
   box-shadow: 0px 2px 10px rgba(0,0,0,0.01);
   padding: 10px 18px;
+  z-index: 7;
   display: flex;
   justify-content: space-between;
   background-image: url(/assets/bg.jpg);

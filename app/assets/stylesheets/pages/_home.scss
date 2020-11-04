@@ -81,16 +81,26 @@ section {
     justify-content: center;
     padding: 1rem 0;
     position: absolute;
-    text-align: center;
+    text-align: left;
     z-index: 1;
     width: 100%;
+
+    p{
+      margin-left: 326px;
+    }
 
     img {
       width: 20%;
     }
+
+    .container{
+      width:1600px;
+    }
   }
 
 }
+
+
 
 .cards{
   display:grid;
