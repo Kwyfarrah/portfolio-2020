@@ -30,16 +30,20 @@
 
 .topnav a:active {
   font-size: 24px;
-  border-radius: 4px;
   color: black;
 }
 
 .topnav a:focus {
   font-size: 24px;
-  border-radius: 4px;
   color: black;
 }
 
 .topnav-right {
   float: right;
+}
+
+a.is_active {
+  font-size: 24px;
+  color: black;
+
 }

@@ -1,3 +1,5 @@
+
+
 // Get the container element
 var link = document.querySelector(".topnav-right");
 
@@ -12,3 +14,5 @@ for (var i = 0; i < links.length; i++) {
     this.className += " active";
   });
 }
+
+
